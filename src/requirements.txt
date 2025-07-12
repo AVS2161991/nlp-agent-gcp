@@ -1,0 +1,6 @@
+google-cloud-storage
+google-cloud-language
+vertexai
+nltk
+kfp
+rouge-score

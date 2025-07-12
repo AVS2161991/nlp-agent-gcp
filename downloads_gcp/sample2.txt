@@ -1,0 +1,19 @@
+Title: Wishlist & Feature Review for InsightCRM Dashboard
+
+After working with InsightCRM for the last 6 months across our sales and support teams, I want to share a detailed review with suggestions. Overall, we love the unified data view and contact-level tracking, but a few gaps are making adoption difficult:
+
+1. There is no native way to create cross-team dashboards (e.g., combining sales and customer success metrics). Right now, we use a third-party integration that breaks every few weeks.
+
+2. Report export to CSV takes >30 seconds for large accounts. This delays our executive reporting.
+
+3. Mobile responsiveness on tablets (especially iPad Mini and Surface) is subpar — graphs overflow and buttons aren’t clickable.
+
+That said, major praise for the following:
+- Support chat is phenomenal (especially John D. and Lina).
+- Feature release notes are detailed and well-documented.
+- Integration with ZoomInfo worked on the first try.
+
+If there's a roadmap for Q3, I'd love to know if these features are being considered. I’d also be happy to participate in a feedback beta program.
+
+Thank you!
+— Ryan K., Dir. of Revenue Ops, New York

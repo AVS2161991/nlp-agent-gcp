@@ -1,0 +1,14 @@
+
+Document-Level Stats:
+       word_count
+count    5.000000
+mean   173.000000
+std     18.854708
+min    146.000000
+25%    167.000000
+50%    171.000000
+75%    186.000000
+max    195.000000
+
+Most common words:
+[('the', 33), ('to', 23), ('and', 18), ('-', 16), ('a', 14), ('is', 14), ('for', 13), ('with', 11), ('of', 8), ('—', 8), ('are', 7), ('this', 7), ('support', 7), ('i', 6), ('on', 6), ('2025', 5), ('if', 5), ('july', 4), ('battery', 4), ('firmware', 4)]

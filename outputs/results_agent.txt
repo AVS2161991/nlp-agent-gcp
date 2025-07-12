@@ -1,0 +1,129 @@
+Downloaded sample1.txt
+Downloaded sample2.txt
+Downloaded sample3.txt
+Downloaded sample4.txt
+Downloaded sample5.txt
+
+=== sample4.txt ===
+
+--- Summary Evaluation for All Prompts ---
+Prompt: Summarize this:
+{text}... | ROUGE-1 F1: 0.2394
+Prompt: Please write a concise summary of the fo... | ROUGE-1 F1: 0.2500
+Prompt: Extract the key points and main ideas fr... | ROUGE-1 F1: 0.3176
+Prompt: Provide a short, human-readable summary ... | ROUGE-1 F1: 0.2764
+Prompt: Summarize the content in 3 sentences:
+{t... | ROUGE-1 F1: 0.2752
+
+--- Best Summary ---
+Prompt used: Extract the key points and main ideas from the following text:
+{text}
+Summary: Here's a breakdown of the key points and main ideas from Jamal A.'s review of the Horizon Earbuds Pro:
+
+*   **Overall Impression:** Great hardware hampered by buggy software.
+
+*   **Pros:**
+    *   Exceptional sound quality (comparable to AirPods Pro and Sony WF-1000XM5).
+    *   Punchy bass without drowning mids.
+    *   Immersive spatial audio.
+    *   Accurate battery life (6 hours with ANC, 30 hours with the case).
+    *   Improved call quality after April firmware update.
+
+*   **Cons:**
+    *   Buggy companion app (frequent freezes, requiring reinstallation).
+    *   Inconsistent Bluetooth multi-device support.
+    *   No Google Assistant integration.
+
+*   **Recommendation:**
+    *   Jamal would likely buy again (due to the hardware quality).
+    *   Not recommended for less tech-savvy users without software fixes.
+
+*   **Rating:** 3.5/5, rounded up to 4/5 due to the strong hardware.
+
+--- Entities & Sentiment ---
+Entities: [('The Horizon Earbuds Pro', 'OTHER'), ('hardware', 'OTHER'), ('software', 'CONSUMER_GOOD'), ('Horizon Earbuds Pro', 'OTHER'), ('Product', 'OTHER'), ('companion app', 'CONSUMER_GOOD'), ('Sound quality', 'OTHER'), ('bass', 'OTHER'), ('good', 'OTHER'), ('audio', 'OTHER'), ('case', 'OTHER'), ('Call quality', 'OTHER'), ('calls', 'EVENT'), ('Bluetooth multi-device support', 'OTHER'), ('AirPods Pro', 'OTHER'), ('firmware', 'EVENT'), ('Battery life', 'OTHER'), ('firmware patch', 'EVENT'), ('downsides', 'OTHER'), ('mids', 'OTHER'), ('claims', 'OTHER'), ('Google', 'ORGANIZATION'), ('times', 'OTHER'), ('Sony', 'ORGANIZATION'), ('WF-1000XM5', 'OTHER'), ('opportunity', 'OTHER'), ('users', 'PERSON'), ('fixes', 'OTHER'), ('hardware', 'OTHER'), ('ANC', 'ORGANIZATION'), ('rating', 'OTHER'), ('Zoom', 'ORGANIZATION'), ('Pixel', 'OTHER'), ('miss', 'OTHER'), ('Assistant', 'PERSON'), ('integration', 'OTHER'), ('Jamal A.', 'PERSON'), ('Austin', 'LOCATION'), ('TX', 'LOCATION'), ('MacBook', 'CONSUMER_GOOD'), ('March 2025', 'DATE'), ('July 2025', 'DATE'), ('3.5', 'NUMBER'), ('30', 'NUMBER'), ('1000', 'NUMBER'), ('2025', 'NUMBER'), ('2025', 'NUMBER'), ('3', 'NUMBER'), ('8', 'NUMBER'), ('6', 'NUMBER'), ('4', 'NUMBER'), ('5', 'NUMBER')]
+Sentiment: {'score': 0.0, 'magnitude': 8.399999618530273}
+
+=== sample2.txt ===
+
+--- Summary Evaluation for All Prompts ---
+Prompt: Summarize this:
+{text}... | ROUGE-1 F1: 0.3217
+Prompt: Please write a concise summary of the fo... | ROUGE-1 F1: 0.3651
+Prompt: Extract the key points and main ideas fr... | ROUGE-1 F1: 0.2788
+Prompt: Provide a short, human-readable summary ... | ROUGE-1 F1: 0.3387
+Prompt: Summarize the content in 3 sentences:
+{t... | ROUGE-1 F1: 0.3810
+
+--- Best Summary ---
+Prompt used: Summarize the content in 3 sentences:
+{text}
+Summary: Ryan K., Director of Revenue Operations, provides a review of InsightCRM after 6 months of use, highlighting its strengths in unified data view, contact-level tracking, support chat, detailed release notes, and ZoomInfo integration. However, he points out critical gaps in cross-team dashboard creation, slow CSV export speeds for large accounts, and subpar mobile responsiveness on tablets, hindering wider adoption. He requests information on the Q3 roadmap and offers to participate in a feedback beta program.
+
+
+--- Entities & Sentiment ---
+Entities: [('sales', 'OTHER'), ('support', 'OTHER'), ('Title', 'OTHER'), ('teams', 'ORGANIZATION'), ('InsightCRM', 'ORGANIZATION'), ('Wishlist & Feature Review for InsightCRM Dashboard', 'OTHER'), ('review', 'OTHER'), ('suggestions', 'OTHER'), ('integration', 'OTHER'), ('data view', 'OTHER'), ('contact-level tracking', 'OTHER'), ('gaps', 'OTHER'), ('adoption', 'OTHER'), ('Report export', 'OTHER'), ('way', 'OTHER'), ('features', 'OTHER'), ('executive reporting', 'OTHER'), ('cross-team dashboards', 'OTHER'), ('responsiveness', 'OTHER'), ('accounts', 'OTHER'), ('customer success metrics', 'OTHER'), ('buttons', 'OTHER'), ('tablets', 'CONSUMER_GOOD'), ('overflow', 'OTHER'), ('Integration', 'OTHER'), ('try', 'OTHER'), ('roadmap', 'OTHER'), ('CSV', 'ORGANIZATION'), ('sales', 'OTHER'), ('iPad Mini', 'CONSUMER_GOOD'), ('Surface', 'ORGANIZATION'), ('feedback beta program', 'OTHER'), ('Dir.', 'LOCATION'), ('ZoomInfo', 'ORGANIZATION'), ('praise', 'OTHER'), ('chat', 'OTHER'), ('release notes', 'WORK_OF_ART'), ('Ryan K.', 'PERSON'), ('Revenue Ops', 'OTHER'), ('New York', 'LOCATION'), ('Lina', 'PERSON'), ('John D.', 'PERSON'), ('30', 'NUMBER'), ('1', 'NUMBER'), ('6', 'NUMBER'), ('2', 'NUMBER'), ('3', 'NUMBER')]
+Sentiment: {'score': 0.0, 'magnitude': 6.900000095367432}
+
+=== sample1.txt ===
+
+--- Summary Evaluation for All Prompts ---
+Prompt: Summarize this:
+{text}... | ROUGE-1 F1: 0.3175
+Prompt: Please write a concise summary of the fo... | ROUGE-1 F1: 0.2017
+Prompt: Extract the key points and main ideas fr... | ROUGE-1 F1: 0.2587
+Prompt: Provide a short, human-readable summary ... | ROUGE-1 F1: 0.3175
+Prompt: Summarize the content in 3 sentences:
+{t... | ROUGE-1 F1: 0.3385
+
+--- Best Summary ---
+Prompt used: Summarize the content in 3 sentences:
+{text}
+Summary: Natalie is reporting significantly degraded battery life on her SmartTrack 2.0 wristband, purchased in January 2025, with the issue beginning in April and reducing battery life from a claimed 5 days to only 14 hours. Despite troubleshooting and contacting support, the problem persists, and she notes similar complaints from other users potentially linked to a recent firmware update. Natalie is seeking an official statement, a firmware patch, or a replacement unit under warranty due to the unacceptable battery performance.
+
+
+--- Entities & Sentiment ---
+Entities: [('part', 'OTHER'), ('device', 'CONSUMER_GOOD'), ('battery performance', 'OTHER'), ('battery performance', 'OTHER'), ('frustration', 'OTHER'), ('Subject', 'OTHER'), ('Hi Team', 'ORGANIZATION'), ('SmartTrack 2.0', 'CONSUMER_GOOD'), ('wristband', 'OTHER'), ('firmware', 'OTHER'), ('marketing claims', 'OTHER'), ('battery life', 'OTHER'), ('responses', 'OTHER'), ('issue', 'OTHER'), ('background heart rate sync', 'OTHER'), ('mode', 'OTHER'), ('degradation', 'OTHER'), ('charge', 'OTHER'), ('troubleshooting steps', 'OTHER'), ('device', 'CONSUMER_GOOD'), ('solution', 'OTHER'), ('user group', 'ORGANIZATION'), ('statements', 'OTHER'), ('price point', 'OTHER'), ('issues', 'OTHER'), ('None', 'OTHER'), ('firmware', 'OTHER'), ('Reddit', 'OTHER'), ('eligibility', 'OTHER'), ('replacement units', 'OTHER'), ('warranty', 'OTHER'), ('firmware version', 'WORK_OF_ART'), ('CA', 'LOCATION'), ('Natalie M. Location', 'LOCATION'), ('Toronto', 'LOCATION'), ('users', 'PERSON'), ('January 2025', 'DATE'), ('June 28, 2025', 'DATE'), ('2025', 'NUMBER'), ('5', 'NUMBER'), ('2.0', 'NUMBER'), ('2025', 'NUMBER'), ('28', 'NUMBER'), ('25', 'NUMBER'), ('14', 'NUMBER')]
+Sentiment: {'score': -0.5, 'magnitude': 6.800000190734863}
+
+=== sample3.txt ===
+
+--- Summary Evaluation for All Prompts ---
+Prompt: Summarize this:
+{text}... | ROUGE-1 F1: 0.4211
+Prompt: Please write a concise summary of the fo... | ROUGE-1 F1: 0.4839
+Prompt: Extract the key points and main ideas fr... | ROUGE-1 F1: 0.3200
+Prompt: Provide a short, human-readable summary ... | ROUGE-1 F1: 0.3937
+Prompt: Summarize the content in 3 sentences:
+{t... | ROUGE-1 F1: 0.4746
+
+--- Best Summary ---
+Prompt used: Please write a concise summary of the following document:
+{text}
+Summary: GreenLeaf Logistics (Case ID 5721839) is experiencing critical API downtime during peak hours following a migration to v3.5 of the billing microservice on June 25th. This results in HTTP 503 errors and increased latency, preventing them from completing invoicing and causing an estimated $8,000/day financial loss. The issue has persisted for 8 days and requires urgent engineering triage to determine if a rollback is feasible, along with investigation into potential load balancing misconfiguration.
+
+
+--- Entities & Sentiment ---
+Entities: [('Customer', 'PERSON'), ('API downtime', 'OTHER'), ('Case ID', 'OTHER'), ('Ticket Summary', 'WORK_OF_ART'), ('Client', 'PERSON'), ('GreenLeaf Logistics Date', 'OTHER'), ('peak batch windows', 'OTHER'), ('PST', 'OTHER'), ('issue', 'OTHER'), ('migration', 'EVENT'), ('Support ticket', 'OTHER'), ('spikes', 'EVENT'), ('latency spikes', 'OTHER'), ('Timeline', 'OTHER'), ('Customer', 'PERSON'), ('tooling', 'CONSUMER_GOOD'), ('billing microservice', 'OTHER'), ('errors', 'OTHER'), ('request', 'OTHER'), ('inactivity', 'OTHER'), ('Monitoring', 'OTHER'), ('rollback', 'OTHER'), ('load balancing pool timeout', 'OTHER'), ('connection', 'OTHER'), ('Priya Mehta', 'PERSON'), ('HTTP', 'OTHER'), ('Client', 'PERSON'), ('cutoff window', 'OTHER'), ('invoicing process', 'OTHER'), ('Impact', 'OTHER'), ('loss', 'OTHER'), ('Urgency', 'OTHER'), ('ticket', 'OTHER'), ('Issue', 'OTHER'), ('engineering triage', 'OTHER'), ('Logs', 'OTHER'), ('resolution', 'OTHER'), ('Steps', 'OTHER'), ('503', 'NUMBER'), ('27', 'NUMBER'), ('June 27', 'DATE'), ('29', 'DATE'), ('June 30', 'DATE'), ('July 1', 'DATE'), ('July 2', 'DATE'), ('$8,000', 'PRICE'), ('July 2, 2025', 'DATE'), ('5', 'NUMBER'), ('5719230', 'NUMBER'), ('5721839', 'NUMBER'), ('2025', 'NUMBER'), ('30', 'NUMBER'), ('11', 'NUMBER'), ('1', 'NUMBER'), ('4', 'NUMBER'), ('2', 'NUMBER'), ('29', 'NUMBER'), ('503', 'NUMBER'), ('5', 'NUMBER'), ('2', 'NUMBER'), ('8', 'NUMBER'), ('8,000', 'NUMBER'), ('9', 'NUMBER'), ('25', 'NUMBER'), ('5', 'NUMBER'), ('June 25', 'DATE')]
+Sentiment: {'score': -0.10000000149011612, 'magnitude': 4.699999809265137}
+
+=== sample5.txt ===
+
+--- Summary Evaluation for All Prompts ---
+Prompt: Summarize this:
+{text}... | ROUGE-1 F1: 0.3284
+Prompt: Please write a concise summary of the fo... | ROUGE-1 F1: 0.3621
+Prompt: Extract the key points and main ideas fr... | ROUGE-1 F1: 0.2335
+Prompt: Provide a short, human-readable summary ... | ROUGE-1 F1: 0.3559
+Prompt: Summarize the content in 3 sentences:
+{t... | ROUGE-1 F1: 0.3894
+
+--- Best Summary ---
+Prompt used: Summarize the content in 3 sentences:
+{text}
+Summary: The TerraCloud Hosting Infrastructure Engineering team completed onboarding for the TerraCloud Kubernetes Gateway in May 2025 and provided feedback on areas needing improvement, including IAM policy documentation for federated SSO users, Terraform module lifecycle hooks, and the dashboard UX. They suggested improvements like a multi-tenant quickstart guide, Slack-based alerting, and Grafana templates, while also praising the support engineer. Despite the friction, they remain cautiously optimistic and willing to be a design partner.
+
+
+--- Entities & Sentiment ---
+Entities: [('team', 'ORGANIZATION'), ('Infrastructure Engineering Onboarding Date', 'OTHER'), ('onboarding process', 'OTHER'), ('Client', 'PERSON'), ('TerraCloud Hosting Team', 'ORGANIZATION'), ('infrastructure', 'OTHER'), ('stakeholders', 'OTHER'), ('feedback', 'OTHER'), ('areas', 'LOCATION'), ('Zainab Khan', 'PERSON'), ('TerraCloud Kubernetes Gateway', 'LOCATION'), ('DevOps', 'OTHER'), ('provisioning workflow', 'OTHER'), ('module', 'CONSUMER_GOOD'), ('configuration', 'OTHER'), ('lifecycle', 'OTHER'), ('friction', 'OTHER'), ('policy setup', 'OTHER'), ('users', 'PERSON'), ('health checks', 'OTHER'), ('status indicators', 'OTHER'), ('clicks', 'OTHER'), ('quickstart guide', 'OTHER'), ('Terraform', 'OTHER'), ('namespaces', 'OTHER'), ('Suggestions', 'OTHER'), ('Dashboard UX', 'OTHER'), ('issues', 'OTHER'), ('call', 'OTHER'), ('access', 'OTHER'), ('design partner', 'ORGANIZATION'), ('SSO', 'ORGANIZATION'), ('IAM', 'ORGANIZATION'), ('release', 'EVENT'), ('Zoom', 'ORGANIZATION'), ('Infra Team', 'ORGANIZATION'), ('TerraCloud Hosting', 'OTHER'), ('customers', 'PERSON'), ('alerting', 'OTHER'), ('addition', 'OTHER'), ('email', 'OTHER'), ('templates', 'CONSUMER_GOOD'), ('metrics', 'OTHER'), ('Grafana', 'PERSON'), ('Prometheus', 'OTHER'), ('Support Slack', 'OTHER'), ('May 2025', 'DATE'), ('3', 'NUMBER'), ('2025', 'NUMBER'), ('3', 'NUMBER')]
+Sentiment: {'score': 0.0, 'magnitude': 3.700000047683716}
