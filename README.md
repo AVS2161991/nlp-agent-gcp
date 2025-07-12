@@ -15,7 +15,7 @@ to fulfill high-level user queries using modular reasoning across multiple docum
 ## To Reproduce and Run the Project
 1. Clone the Repository
 ```
-cd tek_sys
+git clone https://github.com/AVS2161991/nlp-agent-gcp.git
 ```
 
 2. Install Dependencies
@@ -49,10 +49,25 @@ This downloads docs, summarizes them, extracts sentiment/entities, and returns i
 
 7. Run Vertex AI Pipeline (Optional)
 - Build and push Docker image:
+
 docker build -t us-central1-docker.pkg.dev/PROJECT_ID/nlp-agent-repo/nlp-agent-image .
 docker push us-central1-docker.pkg.dev/PROJECT_ID/nlp-agent-repo/nlp-agent-image
+
+In my case the commands used were:
+
+```
+sudo docker build -t us-central1-docker.pkg.dev/storied-destiny-272007/nlp-agent-repo/nlp-agent-image:latest .
+sudo docker push us-central1-docker.pkg.dev/storied-destiny-272007/nlp-agent-repo/nlp-agent-image:latest
+```
+Where my project name on GCP was: storied-destiny-272007
+
 - Update pipeline.py to use your Docker image
 - Compile and submit the pipeline from Console or CLI
+
+## Outputs
+
+outputs of agent.py and eda.py are stored in outputs directory
+
 
 ## Why These GCP Services?
 - Vertex AI: Provides scalable, state-of-the-art generative models (Gemini, PaLM) with managed
