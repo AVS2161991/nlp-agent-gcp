@@ -1,0 +1,12 @@
+[MASTER]
+ignore=venv
+
+[MESSAGES CONTROL]
+disable = 
+    W0612,  # unused-variable
+    E1120,  # no-value-for-parameter
+    C0415,  # import-outside-toplevel
+    W1514   # open without an encoding
+
+[FORMAT]
+max-line-length=100

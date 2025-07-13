@@ -1,3 +1,7 @@
+"""
+tests for evaluate.py module
+"""
+
 import pytest
 from src.evaluate import evaluate_summary
 

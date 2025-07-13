@@ -1,3 +1,7 @@
+"""
+tests for load_data.py module
+"""
+
 from unittest.mock import patch, MagicMock
 from src.load_data import download_blobs
 

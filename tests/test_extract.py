@@ -1,3 +1,7 @@
+"""
+tests for extract.py module
+"""
+
 from unittest.mock import patch, MagicMock
 from src.extract import extract_entities_sentiment
 

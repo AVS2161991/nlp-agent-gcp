@@ -3,11 +3,11 @@ agentic execution across all modules.
 """
 
 import os
-from load_data import download_blobs
-from preprocess import clean_text
-from extract import extract_entities_sentiment
-from summarize import generate_summary_variants
-from evaluate import evaluate_summary
+from src.load_data import download_blobs
+from src.preprocess import clean_text
+from src.extract import extract_entities_sentiment
+from src.summarize import generate_summary_variants
+from src.evaluate import evaluate_summary
 
 BUCKET_NAME = "my-nlp-agent-bucket"
 PREFIX = "docs/"
@@ -29,19 +29,19 @@ for file in os.listdir(LOCAL_DIR):
     summary_variants = generate_summary_variants(cleaned)
     reference_summary = cleaned[:300]
 
-    best_score = 0
-    best_summary = ""
-    best_prompt = ""
+    BEST_SCORE = 0
+    BEST_SUMMARY = ""
+    BEST_PROMPT = ""
     all_summary_scores = []
 
     for prompt_template, summary in summary_variants:
         scores = evaluate_summary(reference_summary, summary)
         rouge1_f1 = scores["rouge1"].fmeasure
         all_summary_scores.append((prompt_template, rouge1_f1))
-        if rouge1_f1 > best_score:
-            best_score = rouge1_f1
-            best_summary = summary
-            best_prompt = prompt_template
+        if rouge1_f1 > BEST_SCORE:
+            BEST_SCORE = rouge1_f1
+            BEST_SUMMARY = summary
+            BEST_PROMPT = prompt_template
 
     # Display all prompt performance
     print("\n--- Summary Evaluation for All Prompts ---")
@@ -49,8 +49,8 @@ for file in os.listdir(LOCAL_DIR):
         print(f"Prompt: {template[:40]}... | ROUGE-1 F1: {score:.4f}")
 
     print("\n--- Best Summary ---")
-    print("Prompt used:", best_prompt)
-    print("Summary:", best_summary)
+    print("Prompt used:", BEST_PROMPT)
+    print("Summary:", BEST_SUMMARY)
 
     # Extract entities and sentiment
     insights = extract_entities_sentiment(cleaned)

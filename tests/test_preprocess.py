@@ -1,3 +1,7 @@
+"""
+tests for preprocess.py module
+"""
+
 from src.preprocess import clean_text
 
 

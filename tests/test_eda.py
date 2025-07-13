@@ -1,3 +1,7 @@
+"""
+tests for eda.py module
+"""
+
 import pytest
 from collections import Counter
 from unittest import mock

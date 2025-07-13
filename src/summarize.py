@@ -1,3 +1,8 @@
+"""
+summarize module for generating summaries
+"""
+
+from typing import List, Tuple
 from vertexai.preview.generative_models import GenerativeModel
 import vertexai
 
@@ -13,7 +18,22 @@ PROMPTS = [
 ]
 
 
-def generate_summary_variants(text, max_tokens=256):
+def generate_summary_variants(text: str, max_tokens: int = 256) -> List[Tuple[str, str]]:
+    """
+    Generate multiple summaries for a given input text using different prompt templates.
+
+    This function uses a generative model (e.g., Gemini via Vertex AI) to produce
+    summary variants by applying a set of predefined prompts.
+
+    Args:
+        text (str): The input text to summarize.
+        max_tokens (int, optional): Maximum tokens to generate in the output. Defaults to 256.
+
+    Returns:
+        List[Tuple[str, str]]: A list of tuples where each tuple contains:
+            - The prompt template used (str)
+            - The corresponding generated summary text (str)
+    """
     summaries = []
     for prompt_template in PROMPTS:
         prompt = prompt_template.format(text=text)
