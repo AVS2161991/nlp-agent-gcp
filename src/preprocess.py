@@ -13,7 +13,3 @@ from nltk.tokenize import sent_tokenize
 def clean_text(text):
     text = re.sub(r"\s+", " ", text)
     return text.strip()
-
-
-def split_sentences(text):
-    return sent_tokenize(text)
