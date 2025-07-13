@@ -5,6 +5,10 @@ This project demonstrates a GCP-native NLP prototype that extracts entities, sen
 summarizations from unstructured documents. It includes an agentic workflow that uses these tools
 to fulfill high-level user queries using modular reasoning across multiple documents.
 
+<img width="972" height="420" alt="image" src="https://github.com/user-attachments/assets/323af7a0-5293-4bd8-8bd8-9ba0f4342dcb" />
+
+
+
 ## Tech Stack and Services
 - Vertex AI: For generative summarization using Gemini models.
 - Cloud Natural Language API: For entity extraction and sentiment analysis.
